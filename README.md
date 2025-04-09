@@ -14,5 +14,5 @@ Exercício resolvidos da disciplina Estruturas da Informação, tirados do Livro
   <li>Capítulo 9 - Árvores Rubro-Negras</li>
   <li>Capítulo 10 - Heaps</li>
   <li>Capítulo 11 - Algoritmos de Ordenação</li>
-
-\*\ Exercícios resolvidos na pasta do capítulo.
+</ul>
+\* Exercícios resolvidos na pasta do capítulo.
