@@ -15,4 +15,5 @@ Exercício resolvidos da disciplina Estruturas da Informação, tirados do Livro
   <li>Capítulo 10 - Heaps</li>
   <li>Capítulo 11 - Algoritmos de Ordenação</li>
 </ul>
-\* Exercícios resolvidos na pasta do capítulo.
+
+<p>* Exercícios resolvidos na pasta do capítulo.</p>
