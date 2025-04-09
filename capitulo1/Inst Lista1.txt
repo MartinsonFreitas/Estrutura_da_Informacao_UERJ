@@ -1,0 +1,36 @@
+Resolva os seguintes problemas lendo um arquivo de texto uma linha por vez e executando operações em cada linha na(s) estrutura(s) de dados apropriada(s). Suas implementações devem ser rápidas o suficiente para que mesmo arquivos contendo um milhão de linhas possam ser processados em poucos segundos.
+Para cada exercício, existe um arquivo execX.py correspondente, onde X corresponde ao número do exercício. Você deve completá-lo, escolhendo uma estrutura da seguinte lista de estruturas simplificadas:
+
+    -Pilha
+    -Fila
+    Deque
+    SSet
+    USet
+
+Não serão aceitas respostas que não utilizem essas estruturas. Essas estruturas estão no diretório EstruturasSimplificadas e podem ser importadas como um módulo:
+from EstruturasSimplificadas import *
+
+Para executar sua resposta, basta executar o programa python execX.py, onde X corresponde ao número do exercício.
+Para testar, basta executar o programa de teste correspondente: test_exercX.py.
+
+1. Leia a entrada de uma linha de cada vez e, em seguida, escreva as linhas em ordem inversa,  de modo que a última linha de entrada seja impressa primeiro, depois a segunda última linha de entrada, e assim por diante. exec1.py
+
+2. Ler as primeiras 50 linhas de uma entrada e então escrevê-las na ordem reversa. Ler as próximas 50 linhas e então escrevê-las em ordem reversa.  Fazer isso até que não existam mais linhas a serem lidas, neste ponto as linhas restantes devem ser impressas em ordem reversa. Em outras palavras, sua saída vai começar com a linha de número 50, então a 49, 48 e assim por diante até a primeira linha. Isso será seguido pela linha de número 100, seguida pela 99, 98 até a linha 51, e assim por diante. Seu código nunca deverá ter armazenado mais de 50 linhas. exec2.py
+
+3. Ler a entrada uma linha por vez. Em qualquer momento, após ter lido as primeiras 42 linhas, se alguma linha é vazia (isto é, uma string de tamanho zero), então imprima a linha que ocorreu 42 linhas antes dela. Por exemplo, se a linha 242 é vazia, seu programa deve imprimir a linha 200. Seu programa deve ser implementado de tal maneira que ele nunca armazene mais de 43 linhas da entrada, em qualquer momento. exec3.py
+
+4. Ler a entrada linha por linha e imprimir a linha se ela não é a duplicata de alguma linha anterior. Preste atenção para que um arquivo com muitas linhas duplicadas não utilize mais memória que aquela necessária para o número de linhas únicas. Por exemplo, se o arquivo de entrada contém 1000 linhas, cada uma delas duplicada 1000 vezes, seu programa deve imprimir apenas 1 linha. exec4.py
+
+5. Ler uma linha por vez e imprimir uma linha somente se você já tiver lido esta linha anteriormente. O resultado final é que você remove a primeira ocorrência de cada linha. Preste atenção para que um arquivo com muitas linhas duplicadas não utilize mais memória que aquela necessária para o número de linhas únicas. exec5.py
+
+6. Ler uma linha por vez. Então imprimir todas as linhas ordenadas por tamanho, com a linha mais curta em primeiro. No caso em que duas linhas tenham o mesmo tamanho, resolva sua ordem usando a regra de ordenação alfabética. Linhas duplicadas devem ser impressas apenas uma vez. exec6.py
+
+7. Ler uma linha por vez. Então imprimir todas as linhas ordenadas por tamanho, com a linha mais curta em primeiro. No caso em que duas linhas tenham o mesmo tamanho, resolva sua ordem usando a regra de ordenação alfabética. As linhas duplicadas devem ser impressas o mesmo número de vezes que aparecem na entrada. exec7.py
+
+8. Leia toda a entrada uma linha de cada vez e, em seguida, imprimir as linhas pares (começando com a primeira linha, linha 0) seguida pelas linhas ímpares. exec8.py
+
+9. Ler a entrada completa, uma linha por vez, e imprimi-las em uma ordem aleatória. exec9.py
+
+10. Uma string casada é uma sequência de caracteres {, }, (, ), [, e ] que estejam casados corretamente. Por exemplo, {{()[]}} é uma string casada, porém {{()]} não é, pois o segundo { casa com um ]. Mostre que uma pilha pode ser usada para isso de tal modo que dada uma string de tamanho n, você possa determinar se ela é uma string casada no tempo O(n). exec10.py
+
+11. Suponha que você tenha uma Pilha, s, que suporta somente as operações push(x) e pop(). Mostre como, usando somente uma fila FIFO, f, você pode reverter a ordem de todos os elementos em s. exec11.py
